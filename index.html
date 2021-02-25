@@ -9,6 +9,7 @@
     <title>Rentair</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="manifest" href="manifest.json">
     <style>
         @font-face {
             font-family: Roboto-Regular;
@@ -276,6 +277,10 @@ a.skip-main:focus, a.skip-main:active {
     </style>
 
     <script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+}
+
         document.getElementById("year").innerHTML = new Date().getFullYear();
 
         function myFunction() {

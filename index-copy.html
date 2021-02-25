@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#27398d">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentair</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="manifest" href="manifest.json">
+    <style>
+        @font-face {
+            font-family: Roboto-Regular;
+            src: url(assets/font/roboto/Roboto-Regular.ttf);
+        }
+
+        body {
+            font-family: Roboto-Regular;
+        }
+    </style>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a  class="skip-main" href="#main">HOPP OVER MENY</a>
+    <noscript>
+    <div style="width: 100%; background-color: darkred; padding: 0.7em;">
+    <p style="color: #f0f0f0; ">Javascript er deaktivert. Vennligst aktiver Javascript for at siden skal virke best mulig. Sjekk support sidene for nettleseren din om du trenger hjelp.</p>
+</div>
+</noscript>
+    <div style="width: 100%; background-color: #27398d;">
+        <p style="color: #f0f0f0; padding: 0.7em;">Norsk | English</p>
+    </div>
+
+    <div align="center">
+
+        <div style=" padding-top: 1.5em; max-width: 850px; padding-left: 10px; padding-right: 10px;">
+
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active"><img style="max-height: 50px; margin-top: -12px;"
+                        src="https://rentair.no/wp-content/uploads/2017/05/rentairlogo-e1496419236312.png" alt=""></a>
+                        
+   
+                </a>
+            </div>
+
+
+            </menu>
+            <div align="left">
+            <div style="max-width: 650px; margin-left: 1em;" >
+
+            <h1 style="font-size: 3em; color:#27398d;">HEI</h1><br>
+
+        <p style="color: #0f0f0f;">
+            Rentair Norway AS har som formål å fremme sikker og enkel utleie av fly til private. Både for kunder bosatt innenlands, men også besøkende piloter. Hva ønsker du å gjøre?</p><br>
+            <button style="text-align: left;">Jeg er pilot og vil leie fly</button>
+            <button style="text-align: left;">Jeg ønsker å ta flysertifikatet</button>
+            <button style="text-align: left;">Kontakt oss</button>
+        </div></div>
+            <p></p>
+            <br><br>
+            <p align="left" style="margin-left: 1em; color: lightslategray;">Rentair Norway AS &#169; <span id="year"></span></p>
+
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+
+        .topnav a {
+            float: left;
+            display: block;
+            color: #0f0f0f;
+            text-align: center;
+            padding: 10px 10px;
+
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+
+
+
+        .topnav a.active {
+            background-color: #ffffff;
+            color: white;
+        }
+
+        .topnav .icon {
+            display: none;
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+
+
+  
+
+        button {
+            background-color: #27398d;
+            /* Green */
+            border: none;
+            color: #F0F0F0;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 50px;
+            margin-top: 10px;
+            max-width: 850px;
+            box-shadow: 0px 2.5px 5px rgba(39, 57, 141, 0.3);
+            transition: all 0.3s ease 0s;
+
+
+
+        }
+
+        button:hover {
+            background-color: #4aadea;
+            color: #0f0f0f;
+            cursor: pointer;
+            transform: translateY(-2px);
+            box-shadow: 0px 2.5px 5px rgba(74, 173, 234, 0.4);
+        }
+
+        button:focus {
+            background-color: #4aadea;
+            color: #0f0f0f;
+            transform: translateY(-2px);
+            box-shadow: 0px 2.5px 5px rgba(74, 173, 234, 0.4);
+
+        }
+
+
+
+   
+        a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #f0f0f0 !important;
+    background-color:#0f0f0f;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:10px;
+
+    
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
+    </style>
+
+    <script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/service-worker.js');
+}
+
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+
+       
+    </script>
+</body>
+
+</html>
