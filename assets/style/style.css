@@ -90,9 +90,10 @@ a.skip-main:active {
 .startpage-img {
     width: 100%;
     max-width: 450px;
-    border-radius: 10px;
+    border-radius: 10px ;
     float: right;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, .4);
+    margin-left: 10px;
+   
 }
 
 .container-2 {
@@ -126,3 +127,4 @@ a.skip-main:active {
 .lang-back{
     width:100%; background-color:#27398d;
 }
+
