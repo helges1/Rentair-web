@@ -92,8 +92,10 @@ a.skip-main:active {
     max-width: 450px;
     border-radius: 10px;
     float: right;
-    margin-left: 10px
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
+
 
 
 
