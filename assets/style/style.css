@@ -96,10 +96,10 @@ a.skip-main:active {
     margin-bottom: 15px;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 700px) {
     .startpage-img {
         width: 100%;
-        max-width: 650px;
+        max-width: 680px;
         border-radius: 10px !important;
         
         margin-left: 10px;
