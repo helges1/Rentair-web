@@ -96,7 +96,17 @@ a.skip-main:active {
     margin-bottom: 15px;
 }
 
-
+@media only screen and (max-width: 680px) {
+    .startpage-img {
+        width: 100%;
+        max-width: 650px;
+        border-radius: 10px !important;
+        
+        margin-left: 10px;
+        
+        margin-bottom: 15px;
+    }
+}
 
 
 
