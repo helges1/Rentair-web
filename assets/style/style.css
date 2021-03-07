@@ -133,6 +133,7 @@ a.skip-main:active {
 .noscript {
     width: 100%;
     background-color: darkred;
+    padding: 0.7em;
     
 }
 
