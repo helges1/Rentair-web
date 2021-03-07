@@ -90,11 +90,13 @@ a.skip-main:active {
 .startpage-img {
     width: 100%;
     max-width: 450px;
-    border-radius: 10px ;
+    border-radius: 10px;
     float: right;
-    margin-left: 10px;
-   
+    margin-left: 10px
 }
+
+
+
 
 .container-2 {
     max-width: 1000px;
@@ -113,18 +115,21 @@ a.skip-main:active {
 }
 
 .white-text {
-    color:#f0f0f0; 
+    color: #f0f0f0
 }
 
 .noscript {
-    width:100%; background-color:darkred; padding:0.7em;
+    width: 100%;
+    background-color: darkred;
+    padding: .7em;
 }
 
-.white-text07{
-    color:#f0f0f0; padding:0.7em;
+.white-text07 {
+    color: #f0f0f0;
+    padding: .7em;
 }
 
-.lang-back{
-    width:100%; background-color:#27398d;
+.lang-back {
+    width: 100%;
+    background-color: #27398d;
 }
-
