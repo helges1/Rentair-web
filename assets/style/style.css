@@ -133,18 +133,25 @@ a.skip-main:active {
 .noscript {
     width: 100%;
     background-color: darkred;
+    
     padding: 0.7em;
     
 }
 
 .white-text07 {
     color: #f0f0f0;
-    padding: 10px;
+    padding: 0.7em;
+    
     text-decoration: none;
 }
 
 .lang-back {
     width: 100%;
     background-color: #27398d;
-    padding: 0.7em;
+    height: 1.75em;
+    padding-top: 0.75em;
+    
+    
+    
+    
 }
